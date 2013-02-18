@@ -2,7 +2,7 @@ require 'formula'
 
 class AkracunTmux < Formula
   homepage 'http://tmux.sourceforge.net'
-  head 'git://github.com/akracun/tmux.git'
+  head 'git://github.com/aaronjensen/tmux.git'
 
   depends_on 'pkg-config' => :build
   depends_on 'libevent'
